@@ -1,0 +1,4 @@
+Two folders for PID control:
+1. PID_external: considering gravity compensation.
+2. PID_internal: ignorming gravity and external disturbance, and applying independent PD contorl;
+ 

@@ -3,9 +3,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-class RBFMechanisms:
+class RBFSliding:
     def __init__(self, config):
-        """RBFMechanisms config.
+        """RBFSliding config.
         """
         self.config = config
         self.W = np.array([0.1] * 5).reshape(1, 5)

@@ -1,5 +1,5 @@
 from config import config
-from RBF_mechanisms import RBFSliding
+from RBF_sliding import RBFSliding
 
 test = RBFSliding(config=config)
 x1_trace, x2_trace, fn_trace, fnd_trace, time_trace = test.derivatives()
